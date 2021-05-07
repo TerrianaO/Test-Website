@@ -1,0 +1,30 @@
+.tao{
+  
+}
+
+body{
+  background-color: #7732a8;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+  padding-bottom: 15px;
+}
+
+.navigation{
+  background-color: grey;
+   display: flex;
+  justify-content: center;
+  border: 3px solid black;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+    text-align: center;
+}
