@@ -78,7 +78,30 @@ h1 {
 
 .factIntro {
     background-color: grey;
-    display: flex;
     justify-content: center;
     border: 3px solid black;
+   
+}
+.factBox{
+    text-align: center;
+}
+
+.qAndA{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightQuestions {
+     background-color: grey;
+    justify-content: center;
+    
+    margin: 2px;
+}
+
+.leftQuestions{
+     background-color: grey;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin: 2px;
 }
