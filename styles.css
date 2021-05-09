@@ -80,6 +80,7 @@ h1 {
     background-color: grey;
     justify-content: center;
     border: 3px solid black;
+    white-space: pre;
    
 }
 .factBox{
@@ -89,18 +90,19 @@ h1 {
 .qAndA{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .rightQuestions {
      background-color: grey;
     justify-content: center;
+    height: 300px;
+    width: 300px;
     margin: 2px;
 }
 
 .leftQuestions{
      background-color: grey;
     justify-content: center;
-    height: 300px;
-    width: 300px;
     margin: 2px;
 }
