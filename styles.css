@@ -27,7 +27,7 @@ h1 {
     text-align: center;
 }
 
-.holdIntro{
+.holdIntro {
     display: inline-block;
     width: 1100px;
     height: 550px;
@@ -47,7 +47,7 @@ h1 {
     height: 400px;
     width: 200px;
     display: flex;
-   padding: 10px;
+    padding: 10px;
 
 }
 
@@ -76,7 +76,7 @@ h1 {
     text-align: center;
 }
 
-.factIntro{
+.factIntro {
     background-color: grey;
     display: flex;
     justify-content: center;
