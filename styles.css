@@ -16,6 +16,7 @@ nav li {
     display: flex;
     justify-content: center;
     border: 2px solid black;
+    display: none;
 }
 
 nav a {
@@ -36,6 +37,7 @@ h1 {
     margin: 10px;
     padding-right: 10px;
     margin-left: 115px;
+    display: none;
 }
 
 .introPics {
@@ -81,6 +83,7 @@ h1 {
     justify-content: center;
     border: 2px solid black;
     white-space: pre;
+    display: none;
 
 }
 
@@ -116,6 +119,7 @@ h1 {
     margin: 10px;
     width: 800px;
    margin-left: 270px;
+    display: none;
     
 }
 
@@ -129,4 +133,24 @@ h1 {
     display: flex;
     justify-content: center;
    
+}
+
+.introLinks{
+    
+}
+
+.gameBox {
+    background-color: grey;
+    border: 2px solid black; 
+}
+
+.gameIntro{
+    display: flex;
+    justify-content: center;
+}
+
+.gameOne{
+    background-color: grey;
+    border: 2px solid black; 
+    margin: 15px;
 }
