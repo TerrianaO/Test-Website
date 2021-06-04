@@ -81,28 +81,42 @@ h1 {
     justify-content: center;
     border: 2px solid black;
     white-space: pre;
-   
-}
-.factBox{
-    text-align: center;
+
 }
 
-.qAndA{
+.factBox {
+    text-align: center;
+
+}
+
+.qAndA {
     display: flex;
     justify-content: space-around;
-    
+
+
 }
 
 .rightQuestions {
-     background-color: grey;
+    background-color: grey;
     justify-content: center;
     height: 300px;
     width: 300px;
     margin: 2px;
 }
 
-.leftQuestions{
-     background-color: grey;
+.leftQuestions {
+    background-color: grey;
     justify-content: center;
     margin: 2px;
+}
+
+.knowMoreBox {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.knowMoreLinks {
+    display: flex;
+    justify-content: center;
+    
 }
