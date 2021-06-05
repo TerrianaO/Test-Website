@@ -115,42 +115,66 @@ h1 {
 
 .knowMoreBox {
     background-color: grey;
-    border: 2px solid black; 
+    border: 2px solid black;
     margin: 10px;
     width: 800px;
-   margin-left: 270px;
+    margin-left: 270px;
     display: none;
-    
+
 }
 
 .knowMoreLinks {
     display: flex;
     justify-content: center;
-    
+
 }
 
-.know{
+.know {
     display: flex;
     justify-content: center;
-   
+
 }
 
-.introLinks{
-    
-}
+.introLinks {}
 
-.gameBox {
-    background-color: grey;
-    border: 2px solid black; 
-}
+.gameBox {}
 
-.gameIntro{
+.gameIntro {
     display: flex;
     justify-content: center;
+    background-color: grey;
+    border: 2px solid black;
 }
 
-.gameOne{
+.gameText {
     background-color: grey;
-    border: 2px solid black; 
+    border: 2px solid black;
+}
+
+.gameOne {
+    background-color: grey;
+    border: 2px solid black;
     margin: 15px;
+}
+
+.gameTwo {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+.gameThree {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+.gameFour {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
 }
