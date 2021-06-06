@@ -1,4 +1,4 @@
-.mainPage{}
+.mainPage {}
 
 body {
     background-color: #7732a8;
@@ -135,7 +135,7 @@ h1 {
 
 .introLinks {}
 
-/* this is the start to the game page java */
+/* this is the start to the game page */
 .gameBox {
     display: none;
 }
