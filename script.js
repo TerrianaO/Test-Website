@@ -68,3 +68,11 @@ $(".parkingGame").mouseenter(function() {
 $("a").mouseleave(function() {
     $("a").css("color", "black");
 });
+
+// this is where the clicking to change pages starts
+
+// to hide the main page to click on games and go back to main
+$(".game").click(function() {
+    $(".mainPage").hide();
+    $(".gameBox").show();
+});
