@@ -1,5 +1,7 @@
+/* the input for the main page */
+
 .mainPage {
-display:none;
+
 }
 
 body {
@@ -272,6 +274,8 @@ h1 {
 }
 
 /* this is the start to the youtube channels' div */
+
+.youtubeBox{}
 
 a {
     text-decoration: none;
