@@ -1,4 +1,6 @@
-.mainPage {}
+.mainPage {
+display:none;
+}
 
 body {
     background-color: #7732a8;
@@ -268,6 +270,8 @@ h1 {
     text-align: center;
     margin-left: 300px;
 }
+
+/* this is the start to the youtube channels' div */
 
 a {
     text-decoration: none;
