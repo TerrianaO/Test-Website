@@ -1,8 +1,10 @@
-/* the input for the main page */
+/* the input + button options for the main page */
 
-.mainPage {
+.mainPage {}
 
-}
+.knowMoreInput {}
+
+.knowMoreButton {}
 
 body {
     background-color: #7732a8;
@@ -275,7 +277,7 @@ h1 {
 
 /* this is the start to the youtube channels' div */
 
-.youtubeBox{}
+.youtubeBox {}
 
 a {
     text-decoration: none;
