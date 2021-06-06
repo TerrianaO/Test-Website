@@ -75,20 +75,29 @@ $(".knowMoreButton").click(function() {
     $(".mainPage").hide();
     $(".other").show();
     let option = $(".knowMoreInput").val().toLowerCase();
-    choices (option);
+    choices(option);
     console.log(option);
 });
 
-function choices (option) {
+function choices(option) {
     console.log(option);
     console.log("purr");
-    if (option === "game" || option === "games") { 
-    $(".mainPage").hide();
-    $(".gameBox").show();
-}}
+    if (option === "game" || option === "games") {
+        $(".mainPage").hide();
+        $(".gameBox").show();
+    } else if (option === "youtube videos" || option === "youtube channel" || option === "youtube channels" || option === "channels" || option === "youtube") {
+        $(".mainPage").hide();
+        $(".youtubeBox").show();
+    }
+}
 
 // to hide the main page to click on games and go back to main
 $(".game").click(function() {
     $(".mainPage").hide();
     $(".gameBox").show();
+});
+
+$(".youtube").click(function() {
+    $(".mainPage").hide();
+    $(".youtubeBox").show();
 });
