@@ -4043,11 +4043,13 @@
   return S.noConflict = function (e) {
     return C.$ === S && (C.$ = Gt), e && C.jQuery === S && (C.jQuery = Vt), S;
   }, "undefined" == typeof e && (C.jQuery = C.$ = S), S;
-});</script><style>/* the input for the main page */
+});</script><style>/* the input + button options for the main page */
 
-.mainPage {
+.mainPage {}
 
-}
+.knowMoreInput {}
+
+.knowMoreButton {}
 
 body {
     background-color: #7732a8;
@@ -4320,7 +4322,7 @@ h1 {
 
 /* this is the start to the youtube channels' div */
 
-.youtubeBox{}
+.youtubeBox {}
 
 a {
     text-decoration: none;
@@ -4417,6 +4419,16 @@ a {
                         <li class=""> </li>
                     </ul>
                 </div> <!-- div for the links -->
+
+                <!-- the start of the div for the input and the button -->
+                <div class="knowInputButton">
+
+                    <input class="knowMoreInput">
+                    <button class="knowMoreButton"> Take Me There!
+                    </button>
+
+                </div> <!-- end of the div for the button and input -->
+
             </div> <!-- div for the know more box itself -->
         </div> <!-- end for main page div -->
 
@@ -4479,10 +4491,10 @@ a {
             </div>
 
         </div> <!-- this is the ending div for the whole game page -->
-       
+
         <!-- whole time this the start for the youtube page -->
         <div class="youtubeBox">
-            
+
         </div> <!-- end for the youtube whole page -->
     
 <script>
