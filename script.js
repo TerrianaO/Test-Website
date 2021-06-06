@@ -71,7 +71,21 @@ $("a").mouseleave(function() {
 
 // this is where the clicking to change pages starts also for the input if they dont wanna click
 
+$(".knowMoreButton").click(function() {
+    $(".mainPage").hide();
+    $(".other").show();
+    let option = $(".knowMoreInput").val().toLowerCase();
+    choices (option);
+    console.log(option);
+});
 
+function choices (option) {
+    console.log(option);
+    console.log("purr");
+    if (option === "game" || option === "games") { 
+    $(".mainPage").hide();
+    $(".gameBox").show();
+}}
 
 // to hide the main page to click on games and go back to main
 $(".game").click(function() {
