@@ -69,7 +69,9 @@ $("a").mouseleave(function() {
     $("a").css("color", "black");
 });
 
-// this is where the clicking to change pages starts
+// this is where the clicking to change pages starts also for the input if they dont wanna click
+
+
 
 // to hide the main page to click on games and go back to main
 $(".game").click(function() {
