@@ -137,6 +137,7 @@ h1 {
 
 .introLinks {}
 
+/* this is the start to the game page java */
 .gameBox {}
 
 .gameIntro {
@@ -146,33 +147,126 @@ h1 {
     border: 2px solid black;
 }
 
-.gameText {
-    background-color: grey;
-    border: 2px solid black;
-}
+.gameText{}
 
 .gameOne {
     background-color: grey;
     border: 2px solid black;
     margin: 15px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 100px;
 }
 
 .gameTwo {
     background-color: grey;
     border: 2px solid black;
     margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 300px;
 }
 
 .gameThree {
     background-color: grey;
     border: 2px solid black;
     margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 500px;
 }
 
 .gameFour {
     background-color: grey;
     border: 2px solid black;
     margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 700px;
+}
+
+.gameFive {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 900px;
+}
+
+.gameSix {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.gameSeven {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.gameEight {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.gameNine {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.gameTen {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.gameEleven {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.gameTwelve {
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+     width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 1100px;
 }
 
 a {
