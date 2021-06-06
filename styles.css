@@ -1,6 +1,16 @@
 /* the input + button options for the main page */
 
+.other{
+    display:none;
+}
+
 .mainPage {}
+
+.knowInputButton{
+    display: flex;
+    justify-content: center;
+        
+}
 
 .knowMoreInput {}
 
