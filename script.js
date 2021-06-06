@@ -32,6 +32,30 @@ $(".sugarSugar").mouseenter(function() {
     $(".sugarSugar").css("color", "pink");
 });
 
+$(".sugarSugar").mouseenter(function() {
+    $(".sugarSugar").css("color", "pink");
+});
+
+$(".sugarSugar").mouseenter(function() {
+    $(".sugarSugar").css("color", "pink");
+});
+
+$(".sugarSugar").mouseenter(function() {
+    $(".sugarSugar").css("color", "pink");
+});
+
+$(".sugarSugar").mouseenter(function() {
+    $(".sugarSugar").css("color", "pink");
+});
+
+$(".sugarSugar").mouseenter(function() {
+    $(".sugarSugar").css("color", "pink");
+});
+
+$(".sugarSugar").mouseenter(function() {
+    $(".sugarSugar").css("color", "pink");
+});
+
 // after the mouse thingy is off any link it, will turn black bc of this one 
 $("a").mouseleave(function() {
     $("a").css("color", "black");
