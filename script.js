@@ -79,7 +79,7 @@ $(".knowMoreButton").click(function() {
     console.log(option);
 });
 
-function choices(option) {
+ function choices(option) {
     console.log(option);
     console.log("purr");
     if (option === "game" || option === "games") {
@@ -88,8 +88,10 @@ function choices(option) {
     } else if (option === "youtube videos" || option === "youtube channel" || option === "youtube channels" || option === "channels" || option === "youtube") {
         $(".mainPage").hide();
         $(".youtubeBox").show();
+    } else {
+        $(".otherAlt").text("Sorry Boo, Ima Need You To Pick From The Available Options :)");
     }
-}
+} 
 
 // to hide the main page to click on games and go back to main
 $(".game").click(function() {
