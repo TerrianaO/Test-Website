@@ -4,7 +4,8 @@
     display: none;
 }
 
-.mainPage {}
+.mainPage {
+}
 
 .knowInputButton {
     display: flex;
@@ -153,7 +154,7 @@ h1 {
 
 /* this is the start to the game page */
 .gameBox {
-    display:none;
+    
 }
 
 .gameIntro {
