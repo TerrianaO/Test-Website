@@ -88,6 +88,8 @@ $(".knowMoreButton").click(function() {
     } else if (option === "youtube videos" || option === "youtube channel" || option === "youtube channels" || option === "channels" || option === "youtube") {
         $(".mainPage").hide();
         $(".youtubeBox").show();
+    } else if (option === "" || option === " ") {
+        $(".otherAlt").text("Sorry Boo, Ima Need You To Pick From The Available Options");
     } else {
         $(".otherAlt").text("Sorry Boo, Ima Need You To Pick From The Available Options :)");
     }
